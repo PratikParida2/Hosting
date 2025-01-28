@@ -64,7 +64,8 @@ app.get('/Menu',async (req,res)=>{
         res.status(400).send('Internal Server Error');
     }
 })
-
+console.log("just for testing purpose bro");
 app.listen(port,()=>{
     console.log(`Server is running on port ${port}`);
 });
+//just for testing purpose
